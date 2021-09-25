@@ -10,7 +10,7 @@ namespace Csharp_assignment_1.Controllers
     /// <summary>
     ///  Add 10 to the number passed as id and returns it;
     /// </summary>
-    public class addTenCosntroller : ApiController
+    public class addTenController : ApiController
     {
         public int Get(int id)
         {

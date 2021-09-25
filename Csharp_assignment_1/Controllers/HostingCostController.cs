@@ -9,6 +9,9 @@ namespace Csharp_assignment_1.Controllers
 {
     public class HostingCostController : ApiController
     {
+        /// <summary>
+        ///  Method takes an input and performs the necessary calculations using variables for storage and inputs the required string with the necessary information.
+        /// </summary>
         public string Get(int id)
         {
             int x = 1 + id / 14;

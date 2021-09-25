@@ -7,7 +7,10 @@ using System.Web.Http;
 
 namespace Csharp_assignment_1.Controllers
 {
-    public class addTenController : ApiController
+    /// <summary>
+    ///  Add 10 to the number passed as id and returns it;
+    /// </summary>
+    public class addTenCosntroller : ApiController
     {
         public int Get(int id)
         {

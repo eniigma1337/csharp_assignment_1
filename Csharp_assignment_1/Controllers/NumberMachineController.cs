@@ -7,6 +7,9 @@ using System.Web.Http;
 
 namespace Csharp_assignment_1.Controllers
 {
+    /// <summary>
+    /// Performs a 4 basic arithmetic operations using BODMAS on the inputted integer
+    /// </summary>
     public class NumberMachineController : ApiController
     {
         public double Get(double id)
